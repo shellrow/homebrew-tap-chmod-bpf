@@ -1,15 +1,15 @@
 class ChmodBpf < Formula
   desc "Managing BPF device permissions on macOS"
   homepage "https://github.com/shellrow/chmod-bpf"
-  version "0.3.0"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/shellrow/chmod-bpf/releases/download/v0.3.0/chmod-bpf-aarch64-apple-darwin.tar.xz"
-      sha256 "5bd252f9072fad307610c04a21845b5c169ed700e1dd770be158a2f71154668f"
+      url "https://github.com/shellrow/chmod-bpf/releases/download/v0.4.0/chmod-bpf-aarch64-apple-darwin.tar.xz"
+      sha256 "3743166e2ee287676688ac03ab585a5af004c10bb783994831233a64eb3cc52e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/shellrow/chmod-bpf/releases/download/v0.3.0/chmod-bpf-x86_64-apple-darwin.tar.xz"
-      sha256 "7e541a254c78c7433fe696815bf21de27f80803bc2e4ee555e595517a1beaeb2"
+      url "https://github.com/shellrow/chmod-bpf/releases/download/v0.4.0/chmod-bpf-x86_64-apple-darwin.tar.xz"
+      sha256 "f14f16ab6e1b53917e293c9e1fa0d0cfd31f09b294863b589e9bb1561e101ee5"
     end
   end
   license "MIT"
